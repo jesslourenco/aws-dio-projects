@@ -66,3 +66,9 @@ Baseados no tipo de instância, região, tempo de uso e armazenamento. Pagamos s
 Dica: Usar a calculadora de custos da AWS para planejar e prever gastos.
 
 ## Exemplo de arquitetura usando EC2
+![Diagrama usando EBS e EC2](https://github.com/jesslourenco/aws-dio-projects/blob/main/images/diagrama-ec2.png)
+- O usuário (Actor) envia um arquivo pela aplicação.
+- O arquivo é armazenado inicialmente no volume D - EBS.
+- A instância EC2 acessa esse volume, processa o arquivo e realiza operações necessárias.
+- Durante o processamento, a EC2 pode ler ou gravar informações no RDS.
+- Após o processamento, os resultados são gravados no volume E - EBS.
