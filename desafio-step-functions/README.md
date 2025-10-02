@@ -18,7 +18,7 @@ AWS Step Functions é um serviço totalmente gerenciado da AWS que permite orque
 - Menos código e complexidade: elimina a necessidade de escrever lógica de orquestração manual em aplicações.
 - Alta escalabilidade e disponibilidade: gerenciado pela AWS, com escalabilidade automática e tolerância a falhas.
 - Visibilidade total: fornece visualizações em tempo real do fluxo e logs detalhados para debugging e auditoria.
-- Integração fácil com serviços AWS: conecta componentes de forma nativa e simplificada.
+- Integração fácil com serviços AWS: conecta componentes de forma nativa e simpgit lificada.
 - Melhor governança: facilita a criação de pipelines de dados, automações de backend e processos de negócio complexos.
 - Reuso e modularidade: workflows podem ser reutilizados e combinados para diferentes aplicações.
 
