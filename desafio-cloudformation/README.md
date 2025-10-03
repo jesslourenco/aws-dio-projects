@@ -20,7 +20,7 @@ AWS CloudFormation é um serviço que permite criar, provisionar e gerenciar rec
 - Menor tempo de provisionamento: elimina a necessidade de cliques manuais no console.
 
 # Estrutura básica de um template
-AWSTemplateFormatVersion: "2010-09-09"
+```AWSTemplateFormatVersion: "2010-09-09"
 Description: "Exemplo simples de CloudFormation - criação de uma instância EC2"
 
 Resources:
@@ -28,4 +28,4 @@ Resources:
     Type: "AWS::EC2::Instance"
     Properties:
       InstanceType: t2.micro
-      ImageId: ami-0abcdef1234567890
+      ImageId: ami-0abcdef1234567890```
