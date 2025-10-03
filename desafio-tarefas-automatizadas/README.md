@@ -14,7 +14,7 @@ Em outras palavras, o LocalStack funciona como uma “mini AWS” rodando no seu
 - Ideal para pipelines de CI/CD, permitindo testes automatizados consistentes.
 
 # Caso de uso: Sistema de Processamento de Notas Fiscais
-
+![Caso de uso](https://github.com/jesslourenco/aws-dio-projects/blob/main/desafio-tarefas-automatizadas/images/case.png)
 # Fluxo do sistema e Localstack
 Com o LocalStack, podemos simular todo o fluxo do projeto localmente, seguindo o processo real que aconteceria na AWS:
 1. Upload de arquivo no S3 – O usuário envia um arquivo (por exemplo, CSV ou JSON) para um bucket S3 simulado pelo LocalStack.
